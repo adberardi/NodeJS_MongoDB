@@ -4,7 +4,7 @@ const Shema = mongoose.Schema;
 
 const taskShema = new Shema({
     title: String,
-    desciption: String,
+    description: String,
     status: {
         type:Boolean,
         default: false
